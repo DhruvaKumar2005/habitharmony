@@ -14,7 +14,6 @@ import Navbar from "./components/Navbar";
 const AppContent = () => {
   const location = useLocation();
 
-  // Show Navbar only on these pages
   const showNavbar = ["/homescreen", "/calendar", "/profile"].includes(
     location.pathname
   );
