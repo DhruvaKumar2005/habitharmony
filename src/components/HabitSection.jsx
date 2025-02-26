@@ -1,7 +1,7 @@
 import React from "react";
 import HabitCard from "./HabitCard";
 import bottle from "../assets/bottle.png";
-import trophy from "../assets/trophy.png";
+import trophy from "../assets/Trophy.png";
 
 const HabitSection = () => {
   const habits = [
