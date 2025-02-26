@@ -19,7 +19,7 @@ const SettingsPage = () => {
 
   const GeneralSection = () => {
     return (
-      <div className="bg-white pt-5 pb-1 px-4 rounded-2xl border border-[#CCCCCC]/60">
+      <div className="bg-white pt-5 pb-1 px-4 rounded-2xl border border-[#CCCCCC]">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
             <img src={General} alt="General" />
@@ -73,7 +73,7 @@ const SettingsPage = () => {
 
   const AboutSection = () => {
     return (
-      <div className="bg-white pt-5 pb-1 px-4 rounded-2xl border border-[#CCCCCC]/60">
+      <div className="bg-white pt-5 pb-1 px-4 rounded-2xl border border-[#CCCCCC]">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
             <img src={Star} alt="Star" />
