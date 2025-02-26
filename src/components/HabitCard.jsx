@@ -3,7 +3,7 @@ import React from "react";
 const HabitCard = ({ habit, streak, action, goal, image, color }) => {
   return (
     <div
-      className="text-white rounded-2xl p-4 flex items-center justify-between w-56 min-w-[210px]" 
+      className="text-white rounded-2xl p-4 py-6 flex items-center justify-between w-56 min-w-[210px]" 
       style={{ backgroundColor: color }} 
     >
       <div>

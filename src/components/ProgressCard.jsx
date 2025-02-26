@@ -7,10 +7,10 @@ const ProgressCard = ({ icon, title, goal, progress }) => {
         <img src={icon} alt={`${title} Icon`} className="w-10 h-10 rounded-full" />
       </div>
       <div>
-        <h2 className="text-xl font-bold">{title}</h2>
+        <h2 className="text-lg font-bold">{title}</h2>
         <p className="text-gray-600">Goal - {goal}</p>
       </div>
-      <div className="mt-4">
+      <div className="mt-10">
         <div className="relative pt-1">
           <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
             <div

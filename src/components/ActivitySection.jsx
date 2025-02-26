@@ -6,10 +6,10 @@ import Swim from "../assets/Swim.png"
 const ActivitySection = () => {
     const ActivityCard = ({image, activity, goal, background}) => {
         return (
-          <div className={`flex flex-col shadow-md px-8 py-6 w-max items-start pr-24 rounded-3xl ${background}`}>
+          <div className={`flex flex-col shadow-md px-4 py-4 w-max items-start pr-24 rounded-3xl ${background}`}>
               <img src={image} alt={image} className='h-8 w-8 mb-2'/>
               <p className='text-black font-medium'>{activity}</p>
-              <p className='text-black/50'>{goal}</p>
+              <p className='text-black/50 text-[12px]'>{goal}</p>
           </div>
         )
       }
